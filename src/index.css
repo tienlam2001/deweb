@@ -1,0 +1,133 @@
+html{
+  fort-family: monospace;
+}
+div#root{
+  width: auto;
+  height : auto;
+}
+
+div#profile{
+  width: 100vw;
+  height: 100vh;
+}
+
+img#introduction{
+  height: 600px ;
+  width: 800px;
+}
+img#profilePicture{
+  min-width: 60vw;
+  height: 50%;
+}
+div#initial{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgb(8,6,21);
+}
+
+body{
+  overflow-x: hidden;
+}
+
+div#firstContainer{
+  width: 100vw;
+  height:100vh;
+}
+
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+}
+
+.tracking-in-expand-fwd2 {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+}
+.tracking-in-expand-fwd3{
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.textContent{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+div#menuContainer{
+  font-family: monospace;
+
+}
+div#project{
+  width: 100vw;
+  height:100vh;
+  background-color: black;
+}
+canvas#scene{
+			background: black;
+			width: 100vw;
+			height: 100vh;
+
+}
+div#set-height{
+  display: block;
+}
+video#v0{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+input#copy{
+			width: 250px;
+      display: none;
+			height: 40px;
+			line-height: 40px;
+			position: absolute;
+			bottom: 35px;
+			left: calc(50% - 125px);
+			background: none;
+			color: white;
+			font-size: 30px;
+			font-family: arial;
+			text-align: center;
+			border: 1px solid white;
+			background: rgba(255,255,255,0.2);
+}
